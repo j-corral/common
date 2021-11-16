@@ -1,7 +1,7 @@
 import React from 'react';
 import { render } from '@testing-library/react';
 
-import { TReactElement, TReactElements } from './treact';
+import { TReactElement, TReactElements } from './react';
 
 it('TReactElement should have correct type', () => {
   const Test: TReactElement = React.createElement('div');

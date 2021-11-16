@@ -9,17 +9,17 @@
  */
 
 {
-    "types/tmap": {
+    "types/map": {
         "scope": "hoomies.fuel",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "types/tmap"
+        "rootDir": "types/map"
     },
-    "types/treact": {
+    "types/react": {
         "scope": "hoomies.fuel",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "types/treact"
+        "rootDir": "types/react"
     },
     "$schema-version": "14.9.0"
 }
