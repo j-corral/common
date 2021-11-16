@@ -1,0 +1,25 @@
+---
+description: 'Usual Types'
+labels: ['react', 'types', 'usual']
+---
+
+## Usage
+
+```ts
+import { TStringMap } from '@hoomies.fuel.types.tmap';
+
+
+const interface MyInterface {
+    List: TStringMap;
+};
+```
+
+## Map Types
+
+|     Name     | Type                  | Description                             |
+| :----------: | --------------------- | --------------------------------------- |
+| `TStringMap` | `Map<string, string>` | A Map of Key => Value strings           |
+| `TNumberMap` | `Map<number, number>` | A Map of Key => Value numbers           |
+|   `TNSMap`   | `Map<number, string>` | A Map of Key (number) => Value (string) |
+|   `TSNMap`   | `Map<string, number>` | A Map of Key (number) => Value (string) |
+|              |                       |                                         |
