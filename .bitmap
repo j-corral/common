@@ -9,6 +9,12 @@
  */
 
 {
+    "hooks/toggle": {
+        "scope": "hoomies.fuel",
+        "version": "0.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "hooks/toggle"
+    },
     "types/map": {
         "scope": "hoomies.fuel",
         "version": "0.0.1",

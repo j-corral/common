@@ -1,0 +1,20 @@
+---
+displayName: 'useToggle'
+description: 'A React Hook that toggle value on call (0 => 1 then 1 => 0)'
+labels: ['fuel', 'hook', 'useToggle']
+---
+
+import { useToggle } from './toggle';
+
+### Component usage
+
+In this example clicking the button calls `toggler` which invert the `toggleValue`
+
+```js
+import { useToggle } from '@hoomies/fuel.hooks.toggle';
+
+const { toggleValue, toggler } = useToggle(false);
+
+<h1>Enabled : {toggleValue ? 'Yes Sir!' : 'Nope!'}</h1>
+<button onClick={toggler}>Toggle</button>
+```
