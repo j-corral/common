@@ -9,6 +9,12 @@
  */
 
 {
+    "functions/capitalize": {
+        "scope": "",
+        "version": "0.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "functions/capitalize"
+    },
     "hooks/toggle": {
         "scope": "hoomies.fuel",
         "version": "0.0.1",
