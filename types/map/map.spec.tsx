@@ -1,6 +1,3 @@
-import React from 'react';
-import { render } from '@testing-library/react';
-
 import { TStringMap } from './map';
 
 it('TStringMap should have correct type', () => {
