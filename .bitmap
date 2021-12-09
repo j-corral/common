@@ -15,6 +15,18 @@
         "mainFile": "index.ts",
         "rootDir": "functions/capitalize"
     },
+    "functions/filter/object/prop": {
+        "scope": "hoomies.fuel",
+        "version": "0.0.2",
+        "mainFile": "index.ts",
+        "rootDir": "functions/filter/object/prop"
+    },
+    "functions/grep": {
+        "scope": "hoomies.fuel",
+        "version": "0.0.2",
+        "mainFile": "index.ts",
+        "rootDir": "functions/grep"
+    },
     "hooks/toggle": {
         "scope": "hoomies.fuel",
         "version": "0.0.1",
@@ -23,13 +35,19 @@
     },
     "types/map": {
         "scope": "hoomies.fuel",
-        "version": "0.0.1",
+        "version": "0.0.3",
         "mainFile": "index.ts",
         "rootDir": "types/map"
     },
+    "types/object": {
+        "scope": "hoomies.fuel",
+        "version": "0.0.2",
+        "mainFile": "index.ts",
+        "rootDir": "types/object"
+    },
     "types/react": {
         "scope": "hoomies.fuel",
-        "version": "0.0.1",
+        "version": "0.0.3",
         "mainFile": "index.ts",
         "rootDir": "types/react"
     },
