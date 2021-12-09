@@ -1,0 +1,31 @@
+---
+description: 'Function FilterObjectProp'
+labels: ['fuel', 'functions', 'FilterObjectProp']
+---
+
+import { FilterObjectProp } from './prop';
+
+## Description
+
+Reduce a given Object with only properties to keep
+
+### Function usage
+
+```js
+import { FilterObjectProp } from '@hoomies/fuel.functions.filter.object.prop';
+
+const item = {
+  A: { name: 'John' },
+  B: { name: 'Jenny' },
+  C: { name: 'Joan' },
+  D: { name: 'Jordan' },
+};
+
+const keys = ['B', 'D'];
+
+// {
+//     B: { name: 'Jenny' },
+//     D: { name: 'Jordan' },
+//  };
+const result = FilterObjectProp({ keys, item });
+```
