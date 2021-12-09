@@ -1,0 +1,30 @@
+---
+description: 'Function Grep'
+labels: ['fuel', 'functions', 'grep']
+---
+
+import { Grep } from './grep';
+
+## Description
+
+Search patterns in a given Text then return matching items (unique by default) in an Array.
+
+### Function usage
+
+```js
+import { Grep, RemoveFirstChar } from '@hoomies/fuel.functions.grep';
+
+// Search for HashTags
+const pattern = new RegExp(/#\w+/g);
+// Text to analyze
+const content = "Hello World, I'm : #Freelance Happy #Developer and Awesome #Developer";
+
+// result = ['#Freelance', '#Developer'];
+const result = Grep({ content, pattern });
+
+// result = ['#Freelance', '#Developer', '#Developer'];
+const result = Grep({ content, pattern, unique: false });
+
+// result = ['Freelance', 'Developer'];
+const result = Grep({ content, pattern }).map(RemoveFirstChar);
+```
