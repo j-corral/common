@@ -23,9 +23,15 @@
     },
     "functions/grep": {
         "scope": "hoomies.fuel",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "index.ts",
         "rootDir": "functions/grep"
+    },
+    "functions/parse-mdx": {
+        "scope": "hoomies.fuel",
+        "version": "0.0.3",
+        "mainFile": "index.ts",
+        "rootDir": "functions/parse-mdx"
     },
     "hooks/toggle": {
         "scope": "hoomies.fuel",
