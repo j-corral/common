@@ -13,7 +13,6 @@ it('Should find UNIQUE hashtags in text', () => {
   const pattern = new RegExp(/#\w+/g);
   const result = Grep({ content, pattern, unique: true });
   const expectedResult = ['#Freelance', '#Developer'];
-  console.log(result);
   expect(result).toStrictEqual(expectedResult);
 });
 
