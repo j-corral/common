@@ -1,0 +1,21 @@
+---
+description: 'Function ParseMDX'
+labels: ['fuel', 'functions', 'ParseMDX']
+---
+
+import { ParseMdx, ParseMDXProps } from './parse-mdx';
+
+## Description
+
+Read MDX source as string (could come from file, api,...) then try to convert into a parsed object.
+It includes Matter metadata and the unique list of the special components used in the source.
+
+### Function usage
+
+```js
+import { ParseMdx } from '@hoomies/fuel.functions.parse-mdx';
+
+const source = '# Hello World !\n I am Happy <Unagui.Hero>toto</Unagui.Hero>';
+const expected = { componentNames: ['UnaguiHero'] };
+const parsed = ParseMDX({ source });
+```
